@@ -3,7 +3,7 @@ name: Deploy App to fly.io
 on:
   push:
     branches:
-      - build-and-analyze
+      - main
 
 jobs:
   build-frontend:
